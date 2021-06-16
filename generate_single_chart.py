@@ -1,5 +1,5 @@
 import sys
-from Modules.analyzePlotOanda import get_analyzed_plot
+from Modules.Oanda.analyzePlotOanda import get_analyzed_plot
 
 
 def main():

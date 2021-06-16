@@ -1,11 +1,11 @@
 #import os
-from Modules.analyzePlotManual import get_analyzed_plot
+from Modules.Manual.analyzePlotManual import get_analyzed_plot
 
 
 def main():
     ### Haven't built data set generation for Bitcoin
     # if not os.path.exists(r'./Datasets'):
-    #   from Modules.generateDatasetsOanda import main as gen_datasets
+    #   from Modules.Oanda.generateDatasetsOanda import main as gen_datasets
     #   gen_datasets()
 
     instruments = ['BTC_USD']

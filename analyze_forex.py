@@ -1,10 +1,10 @@
 import os
-from Modules.analyzePlotOanda import get_analyzed_plot
+from Modules.Oanda.analyzePlotOanda import get_analyzed_plot
 
 
 def main():
     if not os.path.exists(r'./Datasets'):
-        from Modules.generateDatasetsOanda import main as gen_datasets
+        from Modules.Oanda.generateDatasetsOanda import main as gen_datasets
         gen_datasets()
 
     currency = ['EUR_USD', 'EUR_JPY', 'EUR_CAD',
